@@ -53,6 +53,10 @@ const PagePost = async ({ params }) => {
         <Avatar name={post.author.username} imageSrc={post.author.avatar} />
       </footer>
     </article>
+    <h3 className={styles.subtitle}>Código:</h3>
+    <div className={styles.code}>
+      <div dangerouslySetInnerHTML={{ __html: post.markdown }} />
+    </div>
   </>
 }
 
