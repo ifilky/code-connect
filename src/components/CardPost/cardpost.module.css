@@ -49,6 +49,12 @@
   justify-content: space-between;
 }
 
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 .footer p {
   margin: 0;
   text-align: center;
